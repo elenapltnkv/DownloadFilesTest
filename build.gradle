@@ -1,0 +1,23 @@
+plugins {
+    id("java")
+}
+
+group = "elenapltnkv"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.10.1',
+            'com.codeborne:selenide:7.0.3',
+            'org.assertj:assertj-core:3.24.2'
+
+    )
+
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
