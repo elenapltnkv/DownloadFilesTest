@@ -9,7 +9,6 @@ import elenapltnkv.model.Dic;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
@@ -47,7 +46,6 @@ public class FilesParsingTest {
 
     }
 
-    //TODO csv zip
     @Test
     public void openReadCSVTest() throws Exception {
         try (
