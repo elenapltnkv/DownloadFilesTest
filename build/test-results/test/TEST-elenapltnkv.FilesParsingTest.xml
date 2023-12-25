@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="elenapltnkv.FilesParsingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-22T16:21:38" hostname="user" time="0.833">
+<testsuite name="elenapltnkv.FilesParsingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-25T05:53:05" hostname="user" time="0.108">
   <properties/>
-  <testcase name="openReadEXLSTest()" classname="elenapltnkv.FilesParsingTest" time="0.833"/>
-  <system-out><![CDATA[
-]]></system-out>
+  <testcase name="gsonParseImproveTest()" classname="elenapltnkv.FilesParsingTest" time="0.108"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

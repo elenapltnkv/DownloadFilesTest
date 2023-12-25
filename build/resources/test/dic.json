@@ -1,0 +1,19 @@
+{
+  "id": 0,
+  "name": "emt2",
+  "type": "CARD",
+  "paymentParameters": [
+    {
+      "name": "CARD",
+      "required": false,
+      "min": -8,
+      "max": -16,
+      "pattern": "PAN",
+      "prefix": "",
+      "bind": true,
+      "externalName": "CARD",
+      "masterField": true,
+      "maskPattern": "PLAIN"
+    }
+  ]
+}
