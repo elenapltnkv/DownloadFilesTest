@@ -1,0 +1,50 @@
+{
+  "id": null,
+  "partnerId":"656db4e3b1bf7d4b1395512a",
+  "providerId": "emt2",
+  "processingId": "fake",
+  "name": "PR Bank Card",
+  "externalId": "{{$guid}}",
+  "email": "email@test.com",
+  "phone": "900553535",
+  "walletId": 0,
+  "walletNumber": 0,
+  "providerBonus": {
+    "type": "PERCENT",
+    "value": 10.00,
+    "fixValue": 0.00
+  },
+  "commissionFromPartner": null,
+  "commissionFromPayer": null,
+  "commissionFromRecipient": {
+    "type": "PERCENT",
+    "value": 10.00,
+    "fixValue": 0.00
+  },
+  "commissionFromProvider": null,
+  "partnerBonus": {
+    "type": "PERCENT",
+    "value": 10.00,
+    "fixValue": 0.00
+  },
+  "createdAt": null,
+  "updatedAt": null,
+  "rangeAmount": {
+    "min": 10,
+    "max": 10000
+  },
+  "logo": "",
+  "url": "string",
+  "needIdentification": false,
+  "processingParams": {
+    "xs2Password": "OY+Z83HWcIRNFxyqg5O7mXjFyk8=",
+    "checkSign": false,
+    "xs2PassPhrase": "123qwe!!",
+    "xs2Login": "testuser",
+    "url": "https://xs2.x-plat.ru",
+    "xs2Point": "47084"
+  },
+  "paymentParametersGroupId": 151,
+  "active": true,
+  "commissionsValid": true
+}

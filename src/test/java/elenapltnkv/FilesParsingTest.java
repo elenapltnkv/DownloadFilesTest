@@ -77,7 +77,7 @@ public class FilesParsingTest {
     public void gsonParseTest() throws Exception {
         Gson gson = new Gson();
         try (
-                InputStream resource = cl.getResourceAsStream("dic.json");
+                InputStream resource = cl.getResourceAsStream("jsonRes/dic.json");
                 InputStreamReader reader = new InputStreamReader(resource)
         ) {
            JsonObject jsonObject= gson.fromJson(reader, JsonObject.class);
@@ -89,7 +89,7 @@ public class FilesParsingTest {
     public void gsonParseImproveTest() throws Exception {
         Gson gson = new Gson();
         try (
-                InputStream resource = cl.getResourceAsStream("dic.json");
+                InputStream resource = cl.getResourceAsStream("jsonRes/dic.json");
                 InputStreamReader reader = new InputStreamReader(resource)
         ) {
             Dic jsonObject= gson.fromJson(reader, Dic.class);
